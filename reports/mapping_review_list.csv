@@ -1,0 +1,49 @@
+rank,account_id,account_name,category,entity,old_code,mapped_new_code,mapped_account_name,mapped_category,old_balance,new_balance,collision_count,mismap_probability,is_mismapped,reason
+1,A-0059,Rent Expense,Operating Expense,UK,6100-UK,60180-UK,Bank Charges,Operating Expense,24945.01,24928.56,1,1.0,1,"Mapped code's account is 'Bank Charges', which does not match this account's name."
+2,A-0046,Purchase Discounts,COGS,IN,5130-IN,20150-IN,Accrued Payroll,Liabilities,137082.47,155314.5,2,1.0,1,"Mapped code belongs to Liabilities, not COGS; mapped code's account is 'Accrued Payroll', which does not match this account's name; 2 source accounts post into this one new code."
+3,A-0016,Professional Services Revenue,Revenue,DE,4130-DE,60170-DE,Professional Charges,Operating Expense,105907.88,141841.47,2,1.0,1,"Mapped code belongs to Operating Expense, not Revenue; mapped code's account is 'Professional Charges', which does not match this account's name; 2 source accounts post into this one new code; new balance is 1.34x the old balance."
+4,A-0004,Professional Services Revenue,Revenue,US,4130-US,60110-US,Utilities,Operating Expense,201552.73,201504.91,1,1.0,1,"Mapped code belongs to Operating Expense, not Revenue; mapped code's account is 'Utilities', which does not match this account's name."
+5,A-0100,Bonuses,Payroll,UK,7150-UK,70150-UK,Bonus,Payroll,162115.2,162298.76,1,1.0,0,"Mapped code's account is 'Bonus', which does not match this account's name."
+6,A-0118,Short-term Investments,Assets,US,1150-US,20140-US,Notes Payable (Migrated),Liabilities,358398.73,508300.25,2,1.0,1,"Mapped code belongs to Liabilities, not Assets; mapped code's account is 'Notes Payable (Migrated)', which does not match this account's name; 2 source accounts post into this one new code; new balance is 1.42x the old balance."
+7,A-0106,Bonuses,Payroll,DE,7150-DE,70150-DE,Bonus,Payroll,156989.58,157031.49,1,1.0,0,"Mapped code's account is 'Bonus', which does not match this account's name."
+8,A-0071,Marketing and Advertising,Operating Expense,DE,6120-DE,10140-DE,Fixed Assets,Assets,28458.1,28459.98,1,0.9495,1,"Mapped code belongs to Assets, not Operating Expense; mapped code's account is 'Fixed Assets', which does not match this account's name."
+9,A-0034,Purchase Discounts,COGS,UK,5130-UK,50130-UK,Purchase Discounts,COGS,83589.92,83693.23,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+10,A-0055,Insurance Expense,Operating Expense,US,6160-US,60160-US,Coverage Expense,Operating Expense,47468.99,47515.77,1,0.0,0,"Mapped code's account is 'Coverage Expense', which does not match this account's name."
+11,A-0088,Depreciation Expense,Operating Expense,IN,6190-IN,60190-IN,Depreciation Expense,Operating Expense,41461.33,41435.01,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+12,A-0117,Fixed Assets,Assets,US,1140-US,10140-US,Fixed Assets (Migrated),Assets,321284.68,321257.31,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+13,A-0082,Travel and Entertainment,Operating Expense,IN,6130-IN,60130-IN,Travel and Entertainment,Operating Expense,39777.82,39737.91,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+14,A-0047,Direct Labor Cost,COGS,IN,5140-IN,50140-IN,Direct Labor Cost,COGS,84136.13,84106.18,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+15,A-0002,Service Revenue,Revenue,US,4110-US,40110-US,Service Revenue,Revenue,190478.2,190498.04,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+16,A-0028,Purchase Discounts,COGS,US,5130-US,50130-US,Purchase Discounts,COGS,37139.38,37095.89,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+17,A-0042,Warranty Costs,COGS,DE,5150-DE,50150-DE,Warranty Costs,COGS,133294.1,133102.26,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+18,A-0141,Notes Payable,Liabilities,US,2140-US,20140-US,Notes Payable (Migrated),Liabilities,149949.8,508300.25,2,0.0,0,2 source accounts post into this one new code; new balance is 3.39x the old balance.
+19,A-0018,Licensing Revenue,Revenue,DE,4150-DE,40150-DE,Licensing Revenue,Revenue,102844.73,102733.07,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+20,A-0026,Freight and Shipping,COGS,US,5110-US,50110-US,Freight and Shipping,COGS,61747.03,61698.18,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+21,A-0123,Fixed Assets,Assets,UK,1140-UK,10140-UK,Fixed Assets (Migrated),Assets,134761.04,134649.89,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+22,A-0116,Prepaid Expenses,Assets,US,1130-US,10130-US,Prepaid Expenses (Migrated),Assets,376392.62,375857.62,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+23,A-0066,Professional Fees,Operating Expense,UK,6170-UK,60170-UK,Professional Fees,Operating Expense,45814.67,45833.35,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+24,A-0069,Rent Expense,Operating Expense,DE,6100-DE,60100-DE,Lease Expense,Operating Expense,17508.54,17516.97,1,0.0,0,"Mapped code's account is 'Lease Expense', which does not match this account's name."
+25,A-0003,Subscription Revenue,Revenue,US,4120-US,40120-US,Subscription Income,Revenue,246989.63,246845.1,1,0.0,0,"Mapped code's account is 'Subscription Income', which does not match this account's name."
+26,A-0105,Commissions Expense,Payroll,DE,7140-DE,70140-DE,Commissions Expense,Payroll,172679.94,172634.18,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+27,A-0092,Contractor Payments,Payroll,US,7130-US,70130-US,Contractor Payments,Payroll,162071.78,162021.93,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+28,A-0068,Depreciation Expense,Operating Expense,UK,6190-UK,60190-UK,Depreciation Expense,Operating Expense,34169.24,34172.68,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+29,A-0153,Notes Payable,Liabilities,DE,2140-DE,20140-DE,Notes Payable,Liabilities,82775.36,82836.6,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+30,A-0101,Salaries and Wages,Payroll,DE,7100-DE,70100-DE,Salaries and Wages,Payroll,190629.18,190829.59,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+31,A-0158,Sales Tax Payable,Liabilities,IN,2130-IN,20130-IN,Sales Tax Payable (Migrated),Liabilities,175242.53,175062.22,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+32,A-0113,Cash and Equivalents,Assets,US,1100-US,10100-US,Cash and Equivalents,Assets,234882.86,369817.16,2,0.0,0,2 source accounts post into this one new code; new balance is 1.57x the old balance.
+33,A-0087,Bank Fees,Operating Expense,IN,6180-IN,60180-IN,Bank Fees,Operating Expense,50591.6,50646.91,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+34,A-0122,Prepaid Expenses,Assets,UK,1130-UK,10130-UK,Prepaid Expenses,Assets,335080.67,383990.68,2,0.0,0,2 source accounts post into this one new code.
+35,A-0139,Deferred Revenue,Liabilities,US,2120-US,20120-US,Deferred Income,Liabilities,184412.91,184554.83,1,0.0,0,"Mapped code's account is 'Deferred Income', which does not match this account's name."
+36,A-0148,Accrued Payroll,Liabilities,UK,2150-UK,20150-UK,Accrued Payroll,Liabilities,148854.58,148799.03,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+37,A-0156,Accrued Liabilities,Liabilities,IN,2110-IN,20110-IN,Accrued Liabilities,Liabilities,191065.06,191075.91,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+38,A-0074,Office Supplies,Operating Expense,DE,6150-DE,60150-DE,Office Supplies,Operating Expense,24662.75,24628.75,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+39,A-0138,Accrued Liabilities,Liabilities,US,2110-US,20110-US,Accrued Liabilities,Liabilities,172804.33,172731.41,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+40,A-0104,Contractor Payments,Payroll,DE,7130-DE,70130-DE,Contractor Disbursements,Payroll,192660.67,192728.91,1,0.0,0,"Mapped code's account is 'Contractor Disbursements', which does not match this account's name."
+41,A-0133,Inventory,Assets,IN,1120-IN,10120-IN,Inventory (Migrated),Assets,259392.54,259132.34,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+42,A-0024,Licensing Revenue,Revenue,IN,4150-IN,40150-IN,Licensing Revenue,Revenue,277016.46,276797.78,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+43,A-0132,Accounts Receivable,Assets,IN,1110-IN,10110-IN,Accounts Receivable,Assets,423344.64,613911.09,2,0.0,0,2 source accounts post into this one new code; new balance is 1.45x the old balance.
+44,A-0137,Accounts Payable,Liabilities,US,2100-US,20100-US,Accounts Payable (Migrated),Liabilities,237325.33,237112.46,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+45,A-0146,Sales Tax Payable,Liabilities,UK,2130-UK,20130-UK,Sales Tax Payable,Liabilities,113860.05,113955.11,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+46,A-0072,Travel and Entertainment,Operating Expense,DE,6130-DE,60130-DE,Travel and Entertainment,Operating Expense,37178.0,37139.11,1,0.0,0,Balance pattern is an outlier vs the account's own history.
+47,A-0060,Utilities,Operating Expense,UK,6110-UK,60110-UK,Utilities (Migrated),Operating Expense,23200.26,145036.32,2,0.0,0,2 source accounts post into this one new code; new balance is 6.25x the old balance.
+48,A-0037,Cost of Goods Sold,COGS,DE,5100-DE,50100-DE,Cost of Goods Sold,COGS,55956.71,56024.19,1,0.0,0,Balance pattern is an outlier vs the account's own history.
