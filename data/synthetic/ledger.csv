@@ -1,0 +1,161 @@
+account_id,old_code,new_code,account_name,category,entity,old_balance,old_balance_prev,old_balance_mean,old_balance_std,new_account_name,mapped_new_code,is_mismapped,new_balance,mapped_account_name,mapped_category
+A-0001,4100-US,40100-US,Product Revenue,Revenue,US,224435.02,235217.54,228736.83,15622.3,Product Revenue,40100-US,0,328949.91,Product Revenue,Revenue
+A-0002,4110-US,40110-US,Service Revenue,Revenue,US,190478.2,179412.22,174233.33,10640.18,Service Revenue,40110-US,0,190498.04,Service Revenue,Revenue
+A-0003,4120-US,40120-US,Subscription Revenue,Revenue,US,246989.63,245443.68,251439.98,15694.95,Subscription Income,40120-US,0,246845.1,Subscription Income,Revenue
+A-0004,4130-US,40130-US,Professional Services Revenue,Revenue,US,201552.73,237665.12,227559.0,13719.11,Professional Services Income,60110-US,1,201504.91,Utilities,Operating Expense
+A-0005,4140-US,40140-US,Other Income,Revenue,US,104275.76,106390.39,97890.18,5508.57,Other Income,40100-US,1,328949.91,Product Revenue,Revenue
+A-0006,4150-US,40150-US,Licensing Revenue,Revenue,US,286984.71,335358.55,304748.64,17658.68,Licensing Revenue,40150-US,0,286819.52,Licensing Revenue,Revenue
+A-0007,4100-UK,40100-UK,Product Revenue,Revenue,UK,217507.24,224901.09,226397.27,10879.33,Product Revenue,40100-UK,0,217215.1,Product Revenue,Revenue
+A-0008,4110-UK,40110-UK,Service Revenue,Revenue,UK,268627.31,249952.55,253116.43,24512.7,Service Revenue,40110-UK,0,268849.11,Service Revenue,Revenue
+A-0009,4120-UK,40120-UK,Subscription Revenue,Revenue,UK,98782.11,96110.7,98908.78,4044.19,Subscription Revenue,40120-UK,0,98785.27,Subscription Revenue,Revenue
+A-0010,4130-UK,40130-UK,Professional Services Revenue,Revenue,UK,157998.65,170278.52,175216.25,8827.94,Professional Services Income,40130-UK,0,158052.49,Professional Services Income,Revenue
+A-0011,4140-UK,40140-UK,Other Income,Revenue,UK,150471.28,151758.19,149230.35,7637.07,Other Income,40140-UK,0,150329.87,Other Income,Revenue
+A-0012,4150-UK,40150-UK,Licensing Revenue,Revenue,UK,308143.88,284786.68,283331.93,17147.14,Licensing Revenue,40150-UK,0,307709.24,Licensing Revenue,Revenue
+A-0013,4100-DE,40100-DE,Product Revenue,Revenue,DE,228822.07,217729.51,212457.81,16185.94,Product Revenue,40100-DE,0,228591.03,Product Revenue,Revenue
+A-0014,4110-DE,40110-DE,Service Revenue,Revenue,DE,270718.53,252231.38,251277.49,12989.44,Service Revenue,40110-DE,0,270434.81,Service Revenue,Revenue
+A-0015,4120-DE,40120-DE,Subscription Revenue,Revenue,DE,145987.69,139383.11,154254.81,10958.44,Subscription Income,40120-DE,0,241682.49,Subscription Income,Revenue
+A-0016,4130-DE,40130-DE,Professional Services Revenue,Revenue,DE,105907.88,126162.35,119723.06,9635.31,Professional Services Revenue,60170-DE,1,141841.47,Professional Charges,Operating Expense
+A-0017,4140-DE,40140-DE,Other Income,Revenue,DE,177706.36,173025.66,188969.3,11956.67,Other Income,40140-DE,0,177755.52,Other Income,Revenue
+A-0018,4150-DE,40150-DE,Licensing Revenue,Revenue,DE,102844.73,103211.54,93519.31,6189.66,Licensing Revenue,40150-DE,0,102733.07,Licensing Revenue,Revenue
+A-0019,4100-IN,40100-IN,Product Revenue,Revenue,IN,218985.88,222393.99,256121.63,25007.53,Product Revenue,40100-IN,0,218901.31,Product Revenue,Revenue
+A-0020,4110-IN,40110-IN,Service Revenue,Revenue,IN,243427.85,236852.05,222603.6,15976.27,Service Revenue,40110-IN,0,243250.41,Service Revenue,Revenue
+A-0021,4120-IN,40120-IN,Subscription Revenue,Revenue,IN,220528.33,259654.14,248965.58,12790.67,Subscription Revenue,40120-IN,0,220199.02,Subscription Revenue,Revenue
+A-0022,4130-IN,40130-IN,Professional Services Revenue,Revenue,IN,165267.53,172116.7,149860.3,14164.7,Professional Services Revenue,40130-IN,0,165109.03,Professional Services Revenue,Revenue
+A-0023,4140-IN,40140-IN,Other Income,Revenue,IN,279611.76,290059.49,268103.74,15356.32,Other Income,40140-IN,0,279510.48,Other Income,Revenue
+A-0024,4150-IN,40150-IN,Licensing Revenue,Revenue,IN,277016.46,290041.96,260509.13,18823.11,Licensing Revenue,40150-IN,0,276797.78,Licensing Revenue,Revenue
+A-0025,5100-US,50100-US,Cost of Goods Sold,COGS,US,134835.83,126591.44,134067.04,7633.84,Cost of Goods Sold (Migrated),10100-US,1,369817.16,Cash and Equivalents,Assets
+A-0026,5110-US,50110-US,Freight and Shipping,COGS,US,61747.03,63396.95,57099.02,3846.59,Freight and Shipping,50110-US,0,61698.18,Freight and Shipping,COGS
+A-0027,5120-US,50120-US,Inventory Adjustments,COGS,US,81801.37,95609.71,85261.34,5022.97,Inventory Adjustments,50120-US,0,81755.89,Inventory Adjustments,COGS
+A-0028,5130-US,50130-US,Purchase Discounts,COGS,US,37139.38,40287.48,41494.71,2952.04,Purchase Discounts,50130-US,0,37095.89,Purchase Discounts,COGS
+A-0029,5140-US,50140-US,Direct Labor Cost,COGS,US,42377.76,47141.89,51699.84,4519.98,Direct Labor Cost,50140-US,0,42384.71,Direct Labor Cost,COGS
+A-0030,5150-US,50150-US,Warranty Costs,COGS,US,122541.16,122569.1,123431.34,6961.58,Warranty Costs,50150-US,0,122597.55,Warranty Costs,COGS
+A-0031,5100-UK,50100-UK,Cost of Goods Sold,COGS,UK,136874.52,134049.73,131267.77,8213.64,Cost of Goods Sold,50100-UK,0,136821.96,Cost of Goods Sold,COGS
+A-0032,5110-UK,50110-UK,Freight and Shipping,COGS,UK,117411.96,129154.41,141623.7,13850.69,Freight and Shipping,50110-UK,0,377679.02,Freight and Shipping,COGS
+A-0033,5120-UK,50120-UK,Inventory Adjustments,COGS,UK,71761.58,72441.78,70927.87,2617.58,Inventory Adjustments,50120-UK,0,71662.73,Inventory Adjustments,COGS
+A-0034,5130-UK,50130-UK,Purchase Discounts,COGS,UK,83589.92,75732.18,78227.48,5332.25,Purchase Discounts,50130-UK,0,83693.23,Purchase Discounts,COGS
+A-0035,5140-UK,50140-UK,Direct Labor Cost,COGS,UK,108959.33,93855.26,95535.17,5304.98,Direct Labor Cost (Migrated),50140-UK,0,108955.85,Direct Labor Cost (Migrated),COGS
+A-0036,5150-UK,50150-UK,Warranty Costs,COGS,UK,67247.12,62331.34,60091.37,5412.22,Warranty Costs,50150-UK,0,67342.68,Warranty Costs,COGS
+A-0037,5100-DE,50100-DE,Cost of Goods Sold,COGS,DE,55956.71,48926.64,53819.28,3794.54,Cost of Goods Sold,50100-DE,0,56024.19,Cost of Goods Sold,COGS
+A-0038,5110-DE,50110-DE,Freight and Shipping,COGS,DE,92426.49,101155.82,95653.68,4873.94,Freight and Shipping,50110-DE,0,92447.52,Freight and Shipping,COGS
+A-0039,5120-DE,50120-DE,Inventory Adjustments,COGS,DE,67057.68,62935.85,64057.95,2756.77,Inventory Adjustments,50120-DE,0,67016.72,Inventory Adjustments,COGS
+A-0040,5130-DE,50130-DE,Purchase Discounts,COGS,DE,98395.38,102535.88,108392.56,11018.09,Purchase Discounts,50130-DE,0,98506.94,Purchase Discounts,COGS
+A-0041,5140-DE,50140-DE,Direct Labor Cost,COGS,DE,99599.46,92791.22,97394.15,6673.07,Direct Labor Cost,50140-DE,0,99586.92,Direct Labor Cost,COGS
+A-0042,5150-DE,50150-DE,Warranty Costs,COGS,DE,133294.1,146840.84,145094.48,8775.96,Warranty Costs,50150-DE,0,133102.26,Warranty Costs,COGS
+A-0043,5100-IN,50100-IN,Cost of Goods Sold,COGS,IN,129037.03,134902.41,121903.92,8231.56,Cost of Goods Sold,50100-IN,0,129165.31,Cost of Goods Sold,COGS
+A-0044,5110-IN,50110-IN,Freight and Shipping,COGS,IN,73298.47,71183.37,74474.19,3720.18,Freight and Shipping,50110-IN,0,73313.29,Freight and Shipping,COGS
+A-0045,5120-IN,50120-IN,Inventory Adjustments,COGS,IN,95845.99,108127.57,120073.61,12547.25,Inventory Adjustments (Migrated),50120-IN,0,95789.0,Inventory Adjustments (Migrated),COGS
+A-0046,5130-IN,50130-IN,Purchase Discounts,COGS,IN,137082.47,145274.58,132781.97,7099.54,Purchase Discounts,20150-IN,1,155314.5,Accrued Payroll,Liabilities
+A-0047,5140-IN,50140-IN,Direct Labor Cost,COGS,IN,84136.13,78602.72,81328.99,3457.74,Direct Labor Cost,50140-IN,0,84106.18,Direct Labor Cost,COGS
+A-0048,5150-IN,50150-IN,Warranty Costs,COGS,IN,75213.27,71304.14,70566.28,5464.23,Warranty Costs,50150-IN,0,75290.5,Warranty Costs,COGS
+A-0049,6100-US,60100-US,Rent Expense,Operating Expense,US,45611.09,40026.39,47801.52,4122.98,Rent Expense,60100-US,0,45563.06,Rent Expense,Operating Expense
+A-0050,6110-US,60110-US,Utilities,Operating Expense,US,23771.61,25967.55,24547.71,1633.71,Utilities,40130-US,1,23752.24,Professional Services Income,Revenue
+A-0051,6120-US,60120-US,Marketing and Advertising,Operating Expense,US,23979.68,24454.89,26784.65,1850.64,Marketing and Advertising,60120-US,0,23956.29,Marketing and Advertising,Operating Expense
+A-0052,6130-US,60130-US,Travel and Entertainment,Operating Expense,US,16683.03,15099.32,16652.68,875.87,Travel and Entertainment (Migrated),60130-US,0,16707.65,Travel and Entertainment (Migrated),Operating Expense
+A-0053,6140-US,60140-US,Software Subscriptions,Operating Expense,US,57349.26,51466.2,56089.87,3369.56,Software Subscriptions,60140-US,0,57374.71,Software Subscriptions,Operating Expense
+A-0054,6150-US,60150-US,Office Supplies,Operating Expense,US,52525.49,50373.52,49821.09,2709.22,Office Supplies,60150-US,0,52531.21,Office Supplies,Operating Expense
+A-0055,6160-US,60160-US,Insurance Expense,Operating Expense,US,47468.99,50698.13,49979.52,2414.27,Coverage Expense,60160-US,0,47515.77,Coverage Expense,Operating Expense
+A-0056,6170-US,60170-US,Professional Fees,Operating Expense,US,64047.18,59747.73,58019.04,4221.17,Professional Charges,60170-US,0,64102.98,Professional Charges,Operating Expense
+A-0057,6180-US,60180-US,Bank Fees,Operating Expense,US,45309.43,40495.12,40315.76,3496.24,Bank Fees,60180-US,0,45346.92,Bank Fees,Operating Expense
+A-0058,6190-US,60190-US,Depreciation Expense,Operating Expense,US,48242.82,44650.46,45585.77,2277.52,Depreciation Expense,60190-US,0,48246.43,Depreciation Expense,Operating Expense
+A-0059,6100-UK,60100-UK,Rent Expense,Operating Expense,UK,24945.01,25873.9,24530.58,1085.24,Rent Expense,60180-UK,1,24928.56,Bank Charges,Operating Expense
+A-0060,6110-UK,60110-UK,Utilities,Operating Expense,UK,23200.26,20311.39,21999.12,1165.96,Utilities (Migrated),60110-UK,0,145036.32,Utilities (Migrated),Operating Expense
+A-0061,6120-UK,60120-UK,Marketing and Advertising,Operating Expense,UK,42522.41,48513.01,49507.22,3205.49,Marketing and Advertising,60120-UK,0,42582.29,Marketing and Advertising,Operating Expense
+A-0062,6130-UK,60130-UK,Travel and Entertainment,Operating Expense,UK,37854.94,34420.71,36831.1,1667.35,Travel and Entertainment,60130-UK,0,37872.95,Travel and Entertainment,Operating Expense
+A-0063,6140-UK,60140-UK,Software Subscriptions,Operating Expense,UK,51750.95,50441.09,47413.87,2460.95,Software Subscriptions,60140-UK,0,51716.58,Software Subscriptions,Operating Expense
+A-0064,6150-UK,60150-UK,Office Supplies,Operating Expense,UK,58150.45,57540.11,56984.51,2972.43,Office Supplies,60150-UK,0,58177.41,Office Supplies,Operating Expense
+A-0065,6160-UK,60160-UK,Insurance Expense,Operating Expense,UK,48454.04,53608.44,50479.73,3052.93,Coverage Expense,10130-UK,1,383990.68,Prepaid Expenses,Assets
+A-0066,6170-UK,60170-UK,Professional Fees,Operating Expense,UK,45814.67,36870.09,44289.19,2777.44,Professional Fees,60170-UK,0,45833.35,Professional Fees,Operating Expense
+A-0067,6180-UK,60180-UK,Bank Fees,Operating Expense,UK,41222.13,37684.49,39638.62,3017.67,Bank Charges,60100-UK,1,41201.63,Rent Expense,Operating Expense
+A-0068,6190-UK,60190-UK,Depreciation Expense,Operating Expense,UK,34169.24,33595.01,33429.16,1209.67,Depreciation Expense,60190-UK,0,34172.68,Depreciation Expense,Operating Expense
+A-0069,6100-DE,60100-DE,Rent Expense,Operating Expense,DE,17508.54,18056.38,17428.11,1085.82,Lease Expense,60100-DE,0,17516.97,Lease Expense,Operating Expense
+A-0070,6110-DE,60110-DE,Utilities,Operating Expense,DE,43385.31,41197.77,40626.41,2383.21,Utilities,60110-DE,0,43396.25,Utilities,Operating Expense
+A-0071,6120-DE,60120-DE,Marketing and Advertising,Operating Expense,DE,28458.1,27329.83,28071.48,882.36,Marketing and Advertising (Migrated),10140-DE,1,28459.98,Fixed Assets,Assets
+A-0072,6130-DE,60130-DE,Travel and Entertainment,Operating Expense,DE,37178.0,36577.38,36153.88,1779.74,Travel and Entertainment,60130-DE,0,37139.11,Travel and Entertainment,Operating Expense
+A-0073,6140-DE,60140-DE,Software Subscriptions,Operating Expense,DE,63159.3,66035.01,62688.74,4576.06,Software Subscriptions,60140-DE,0,63109.18,Software Subscriptions,Operating Expense
+A-0074,6150-DE,60150-DE,Office Supplies,Operating Expense,DE,24662.75,26129.11,26383.89,1371.47,Office Supplies,60150-DE,0,24628.75,Office Supplies,Operating Expense
+A-0075,6160-DE,60160-DE,Insurance Expense,Operating Expense,DE,20366.0,22241.46,20135.05,1420.72,Coverage Expense,60160-DE,0,20349.98,Coverage Expense,Operating Expense
+A-0076,6170-DE,60170-DE,Professional Fees,Operating Expense,DE,35733.82,33755.77,32601.99,1879.4,Professional Charges,60170-DE,0,141841.47,Professional Charges,Operating Expense
+A-0077,6180-DE,60180-DE,Bank Fees,Operating Expense,DE,36853.47,38323.12,34799.2,2634.73,Bank Fees,60180-DE,0,36824.89,Bank Fees,Operating Expense
+A-0078,6190-DE,60190-DE,Depreciation Expense,Operating Expense,DE,54077.29,52132.94,50284.31,2909.84,Depreciation Expense,60190-DE,0,54014.36,Depreciation Expense,Operating Expense
+A-0079,6100-IN,60100-IN,Rent Expense,Operating Expense,IN,41062.33,45568.98,46338.9,2134.53,Rent Expense,60100-IN,0,41065.78,Rent Expense,Operating Expense
+A-0080,6110-IN,60110-IN,Utilities,Operating Expense,IN,60296.14,56576.19,56043.88,3102.57,Utilities,60110-IN,0,60213.82,Utilities,Operating Expense
+A-0081,6120-IN,60120-IN,Marketing and Advertising,Operating Expense,IN,50028.66,49573.48,49559.33,2126.67,Marketing and Advertising,60120-IN,0,50002.72,Marketing and Advertising,Operating Expense
+A-0082,6130-IN,60130-IN,Travel and Entertainment,Operating Expense,IN,39777.82,35062.82,36988.95,2021.53,Travel and Entertainment,60130-IN,0,39737.91,Travel and Entertainment,Operating Expense
+A-0083,6140-IN,60140-IN,Software Subscriptions,Operating Expense,IN,63369.19,67580.28,61655.94,5101.3,Software Subscriptions (Migrated),60140-IN,0,63446.3,Software Subscriptions (Migrated),Operating Expense
+A-0084,6150-IN,60150-IN,Office Supplies,Operating Expense,IN,22160.14,21607.58,24008.67,2098.73,Office Supplies,60150-IN,0,22159.85,Office Supplies,Operating Expense
+A-0085,6160-IN,60160-IN,Insurance Expense,Operating Expense,IN,18036.94,16657.65,17793.94,1192.69,Insurance Expense,20150-IN,1,155314.5,Accrued Payroll,Liabilities
+A-0086,6170-IN,60170-IN,Professional Fees,Operating Expense,IN,22897.46,23132.48,21994.08,1015.92,Professional Fees,20140-IN,1,22864.44,Notes Payable,Liabilities
+A-0087,6180-IN,60180-IN,Bank Fees,Operating Expense,IN,50591.6,51080.28,56301.18,4340.09,Bank Fees,60180-IN,0,50646.91,Bank Fees,Operating Expense
+A-0088,6190-IN,60190-IN,Depreciation Expense,Operating Expense,IN,41461.33,40690.86,41531.48,2172.93,Depreciation Expense,60190-IN,0,41435.01,Depreciation Expense,Operating Expense
+A-0089,7100-US,70100-US,Salaries and Wages,Payroll,US,74550.34,82311.02,71246.11,8895.58,Salaries and Wages,70100-US,0,74499.21,Salaries and Wages,Payroll
+A-0090,7110-US,70110-US,Payroll Taxes,Payroll,US,130057.23,117731.97,124854.88,5128.71,Payroll Taxes,70110-US,0,130196.21,Payroll Taxes,Payroll
+A-0091,7120-US,70120-US,Employee Benefits,Payroll,US,64443.63,58862.02,68499.91,4621.48,Employee Benefits (Migrated),70120-US,0,64434.93,Employee Benefits (Migrated),Payroll
+A-0092,7130-US,70130-US,Contractor Payments,Payroll,US,162071.78,151818.45,153506.59,9952.52,Contractor Payments,70130-US,0,162021.93,Contractor Payments,Payroll
+A-0093,7140-US,70140-US,Commissions Expense,Payroll,US,91976.61,104069.19,105273.84,5181.45,Commissions Expense,70140-US,0,91927.33,Commissions Expense,Payroll
+A-0094,7150-US,70150-US,Bonuses,Payroll,US,104634.12,108290.32,100528.14,6702.96,Bonuses,70150-US,0,104515.47,Bonuses,Payroll
+A-0095,7100-UK,70100-UK,Salaries and Wages,Payroll,UK,84155.54,99843.25,92417.68,6634.13,Salaries and Wages,70100-UK,0,84056.38,Salaries and Wages,Payroll
+A-0096,7110-UK,70110-UK,Payroll Taxes,Payroll,UK,120495.08,152179.98,141169.56,11112.79,Payroll Tax,70110-UK,0,120492.88,Payroll Tax,Payroll
+A-0097,7120-UK,70120-UK,Employee Benefits,Payroll,UK,99884.96,109372.75,100343.99,6056.73,Employee Benefits (Migrated),70120-UK,0,99740.78,Employee Benefits (Migrated),Payroll
+A-0098,7130-UK,70130-UK,Contractor Payments,Payroll,UK,62659.43,57265.61,59026.1,3611.23,Contractor Disbursements,70130-UK,0,62590.0,Contractor Disbursements,Payroll
+A-0099,7140-UK,70140-UK,Commissions Expense,Payroll,UK,62510.97,65120.44,67595.15,3980.93,Commissions Expense,70140-UK,0,62559.04,Commissions Expense,Payroll
+A-0100,7150-UK,70150-UK,Bonuses,Payroll,UK,162115.2,167957.08,178169.66,13718.34,Bonus,70150-UK,0,162298.76,Bonus,Payroll
+A-0101,7100-DE,70100-DE,Salaries and Wages,Payroll,DE,190629.18,192972.36,174615.42,12302.13,Salaries and Wages,70100-DE,0,190829.59,Salaries and Wages,Payroll
+A-0102,7110-DE,70110-DE,Payroll Taxes,Payroll,DE,159016.44,159589.1,148404.17,8635.73,Payroll Taxes,70110-DE,0,158948.51,Payroll Taxes,Payroll
+A-0103,7120-DE,70120-DE,Employee Benefits,Payroll,DE,96047.71,106805.81,95154.54,8206.2,Employee Benefits,40120-DE,1,241682.49,Subscription Income,Revenue
+A-0104,7130-DE,70130-DE,Contractor Payments,Payroll,DE,192660.67,190248.2,193992.1,11198.69,Contractor Disbursements,70130-DE,0,192728.91,Contractor Disbursements,Payroll
+A-0105,7140-DE,70140-DE,Commissions Expense,Payroll,DE,172679.94,143862.81,162719.52,11239.38,Commissions Expense,70140-DE,0,172634.18,Commissions Expense,Payroll
+A-0106,7150-DE,70150-DE,Bonuses,Payroll,DE,156989.58,157776.5,152662.62,8092.15,Bonus,70150-DE,0,157031.49,Bonus,Payroll
+A-0107,7100-IN,70100-IN,Salaries and Wages,Payroll,IN,95778.23,107978.53,102807.97,8961.17,Salaries and Wages,70100-IN,0,95920.78,Salaries and Wages,Payroll
+A-0108,7110-IN,70110-IN,Payroll Taxes,Payroll,IN,74684.19,80478.94,82265.92,5361.7,Payroll Tax,70110-IN,0,74679.46,Payroll Tax,Payroll
+A-0109,7120-IN,70120-IN,Employee Benefits,Payroll,IN,65042.21,63169.64,62644.79,3514.89,Employee Benefits (Migrated),70120-IN,0,65095.01,Employee Benefits (Migrated),Payroll
+A-0110,7130-IN,70130-IN,Contractor Payments,Payroll,IN,177148.61,156245.43,160928.61,12904.6,Contractor Disbursements,70130-IN,0,177127.56,Contractor Disbursements,Payroll
+A-0111,7140-IN,70140-IN,Commissions Expense,Payroll,IN,113736.14,101014.95,109796.95,5808.04,Commissions Expense,70140-IN,0,113629.58,Commissions Expense,Payroll
+A-0112,7150-IN,70150-IN,Bonuses,Payroll,IN,69745.23,66885.56,69027.65,3880.2,Bonus,70150-IN,0,69748.52,Bonus,Payroll
+A-0113,1100-US,10100-US,Cash and Equivalents,Assets,US,234882.86,232084.33,217184.03,16659.31,Cash and Equivalents,10100-US,0,369817.16,Cash and Equivalents,Assets
+A-0114,1110-US,10110-US,Accounts Receivable,Assets,US,296080.9,293815.86,274117.79,18805.15,Accounts Receivable,10110-US,0,295742.33,Accounts Receivable,Assets
+A-0115,1120-US,10120-US,Inventory,Assets,US,173594.48,156526.02,162850.98,11856.3,Inventory,10120-US,0,173422.47,Inventory,Assets
+A-0116,1130-US,10130-US,Prepaid Expenses,Assets,US,376392.62,335669.66,355524.37,22333.39,Prepaid Expenses (Migrated),10130-US,0,375857.62,Prepaid Expenses (Migrated),Assets
+A-0117,1140-US,10140-US,Fixed Assets,Assets,US,321284.68,329716.83,328021.87,15189.21,Fixed Assets (Migrated),10140-US,0,321257.31,Fixed Assets (Migrated),Assets
+A-0118,1150-US,10150-US,Short-term Investments,Assets,US,358398.73,349186.27,348222.05,17097.58,Short-term Investments,20140-US,1,508300.25,Notes Payable (Migrated),Liabilities
+A-0119,1100-UK,10100-UK,Cash and Equivalents,Assets,UK,259894.95,250759.71,252097.7,17836.62,Cash and Equivalents (Migrated),50110-UK,1,377679.02,Freight and Shipping,COGS
+A-0120,1110-UK,10110-UK,Accounts Receivable,Assets,UK,314419.32,314111.24,297293.09,17337.87,Accounts Receivable,10110-UK,0,314215.58,Accounts Receivable,Assets
+A-0121,1120-UK,10120-UK,Inventory,Assets,UK,260705.39,276615.66,284474.24,19194.57,Inventory,10120-UK,0,260776.2,Inventory,Assets
+A-0122,1130-UK,10130-UK,Prepaid Expenses,Assets,UK,335080.67,309375.9,322483.44,21401.06,Prepaid Expenses,10130-UK,0,383990.68,Prepaid Expenses,Assets
+A-0123,1140-UK,10140-UK,Fixed Assets,Assets,UK,134761.04,124427.33,134198.65,8921.45,Fixed Assets (Migrated),10140-UK,0,134649.89,Fixed Assets (Migrated),Assets
+A-0124,1150-UK,10150-UK,Short-term Investments,Assets,UK,211448.95,235010.16,224940.54,15922.47,Short-term Investments,10150-UK,0,211324.14,Short-term Investments,Assets
+A-0125,1100-DE,10100-DE,Cash and Equivalents,Assets,DE,124810.63,110289.23,123332.4,6155.32,Cash and Equivalents (Migrated),10100-DE,0,124667.64,Cash and Equivalents (Migrated),Assets
+A-0126,1110-DE,10110-DE,Accounts Receivable,Assets,DE,277172.4,276964.8,272296.12,17857.19,Accounts Receivable,10110-DE,0,276878.56,Accounts Receivable,Assets
+A-0127,1120-DE,10120-DE,Inventory,Assets,DE,207763.82,218904.05,213158.16,13221.67,Inventory (Migrated),10120-DE,0,207771.32,Inventory (Migrated),Assets
+A-0128,1130-DE,10130-DE,Prepaid Expenses,Assets,DE,146362.96,146385.93,155582.07,8243.7,Prepaid Expenses,10130-DE,0,146461.14,Prepaid Expenses,Assets
+A-0129,1140-DE,10140-DE,Fixed Assets,Assets,DE,135265.52,114491.82,130234.81,9516.57,Fixed Assets,60120-DE,1,135230.93,Marketing and Advertising (Migrated),Operating Expense
+A-0130,1150-DE,10150-DE,Short-term Investments,Assets,DE,291141.96,304902.47,303157.18,14835.99,Short-term Investments (Migrated),10150-DE,0,291440.69,Short-term Investments (Migrated),Assets
+A-0131,1100-IN,10100-IN,Cash and Equivalents,Assets,IN,158686.68,148702.75,156174.32,9325.5,Cash and Equivalents (Migrated),10100-IN,0,158674.93,Cash and Equivalents (Migrated),Assets
+A-0132,1110-IN,10110-IN,Accounts Receivable,Assets,IN,423344.64,435006.48,412663.45,18455.54,Accounts Receivable,10110-IN,0,613911.09,Accounts Receivable,Assets
+A-0133,1120-IN,10120-IN,Inventory,Assets,IN,259392.54,256796.98,272677.01,18683.76,Inventory (Migrated),10120-IN,0,259132.34,Inventory (Migrated),Assets
+A-0134,1130-IN,10130-IN,Prepaid Expenses,Assets,IN,182712.53,187102.88,201155.18,15810.43,Prepaid Expenses (Migrated),10130-IN,0,182545.48,Prepaid Expenses (Migrated),Assets
+A-0135,1140-IN,10140-IN,Fixed Assets,Assets,IN,268666.05,301138.37,299953.72,25244.3,Fixed Assets,10140-IN,0,268521.06,Fixed Assets,Assets
+A-0136,1150-IN,10150-IN,Short-term Investments,Assets,IN,103453.55,91145.01,103349.37,8663.76,Short-term Investments,10150-IN,0,103582.43,Short-term Investments,Assets
+A-0137,2100-US,20100-US,Accounts Payable,Liabilities,US,237325.33,231483.35,229312.43,10815.53,Accounts Payable (Migrated),20100-US,0,237112.46,Accounts Payable (Migrated),Liabilities
+A-0138,2110-US,20110-US,Accrued Liabilities,Liabilities,US,172804.33,144650.55,155366.24,10033.38,Accrued Liabilities,20110-US,0,172731.41,Accrued Liabilities,Liabilities
+A-0139,2120-US,20120-US,Deferred Revenue,Liabilities,US,184412.91,191536.17,195437.27,11468.64,Deferred Income,20120-US,0,184554.83,Deferred Income,Liabilities
+A-0140,2130-US,20130-US,Sales Tax Payable,Liabilities,US,73155.02,72861.4,74087.06,3517.98,Sales Tax Payable,20130-US,0,73220.43,Sales Tax Payable,Liabilities
+A-0141,2140-US,20140-US,Notes Payable,Liabilities,US,149949.8,140713.64,140426.34,9237.58,Notes Payable (Migrated),20140-US,0,508300.25,Notes Payable (Migrated),Liabilities
+A-0142,2150-US,20150-US,Accrued Payroll,Liabilities,US,148404.88,129024.89,147684.39,7563.73,Accrued Payroll,20150-US,0,148571.85,Accrued Payroll,Liabilities
+A-0143,2100-UK,20100-UK,Accounts Payable,Liabilities,UK,224293.39,226755.14,228521.7,8756.02,Accounts Payable,20100-UK,0,224348.57,Accounts Payable,Liabilities
+A-0144,2110-UK,20110-UK,Accrued Liabilities,Liabilities,UK,133977.82,151393.35,152956.28,11167.45,Accrued Liabilities (Migrated),20110-UK,0,134039.47,Accrued Liabilities (Migrated),Liabilities
+A-0145,2120-UK,20120-UK,Deferred Revenue,Liabilities,UK,121695.01,130324.7,130808.22,8921.47,Deferred Income,60110-UK,1,145036.32,Utilities (Migrated),Operating Expense
+A-0146,2130-UK,20130-UK,Sales Tax Payable,Liabilities,UK,113860.05,117352.81,113635.23,5399.96,Sales Tax Payable,20130-UK,0,113955.11,Sales Tax Payable,Liabilities
+A-0147,2140-UK,20140-UK,Notes Payable,Liabilities,UK,110344.66,110979.91,115948.91,10298.31,Notes Payable,20140-UK,0,110269.56,Notes Payable,Liabilities
+A-0148,2150-UK,20150-UK,Accrued Payroll,Liabilities,UK,148854.58,157255.71,155413.79,11003.68,Accrued Payroll,20150-UK,0,148799.03,Accrued Payroll,Liabilities
+A-0149,2100-DE,20100-DE,Accounts Payable,Liabilities,DE,121829.97,111581.72,126001.52,11044.26,Accounts Payable,20100-DE,0,314217.49,Accounts Payable,Liabilities
+A-0150,2110-DE,20110-DE,Accrued Liabilities,Liabilities,DE,63736.95,57763.74,62280.02,4708.04,Accrued Liabilities,20110-DE,0,63786.73,Accrued Liabilities,Liabilities
+A-0151,2120-DE,20120-DE,Deferred Revenue,Liabilities,DE,200983.87,206359.3,205484.27,6575.73,Deferred Revenue,20120-DE,0,200947.15,Deferred Revenue,Liabilities
+A-0152,2130-DE,20130-DE,Sales Tax Payable,Liabilities,DE,192713.79,194093.93,197298.64,17660.34,Sales Tax Payable,20100-DE,1,314217.49,Accounts Payable,Liabilities
+A-0153,2140-DE,20140-DE,Notes Payable,Liabilities,DE,82775.36,85190.75,80046.6,4694.07,Notes Payable,20140-DE,0,82836.6,Notes Payable,Liabilities
+A-0154,2150-DE,20150-DE,Accrued Payroll,Liabilities,DE,131668.11,147504.75,147979.33,9652.12,Accrued Payroll,20150-DE,0,131705.85,Accrued Payroll,Liabilities
+A-0155,2100-IN,20100-IN,Accounts Payable,Liabilities,IN,81034.29,80019.97,80355.33,4785.22,Accounts Payable (Migrated),20100-IN,0,81087.81,Accounts Payable (Migrated),Liabilities
+A-0156,2110-IN,20110-IN,Accrued Liabilities,Liabilities,IN,191065.06,160778.0,183777.37,10374.04,Accrued Liabilities,20110-IN,0,191075.91,Accrued Liabilities,Liabilities
+A-0157,2120-IN,20120-IN,Deferred Revenue,Liabilities,IN,115066.86,108001.06,111394.32,5154.54,Deferred Income,20120-IN,0,114956.51,Deferred Income,Liabilities
+A-0158,2130-IN,20130-IN,Sales Tax Payable,Liabilities,IN,175242.53,148847.13,174225.27,14399.38,Sales Tax Payable (Migrated),20130-IN,0,175062.22,Sales Tax Payable (Migrated),Liabilities
+A-0159,2140-IN,20140-IN,Notes Payable,Liabilities,IN,189028.67,199991.8,198476.3,14525.03,Notes Payable,60170-IN,1,189005.54,Professional Fees,Operating Expense
+A-0160,2150-IN,20150-IN,Accrued Payroll,Liabilities,IN,190691.78,171781.95,187960.85,11173.38,Accrued Payroll,10110-IN,1,613911.09,Accounts Receivable,Assets
