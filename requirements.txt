@@ -1,0 +1,13 @@
+# Pinned to the versions the pipeline, tests, app and notebooks were
+# verified with (Python 3.12). See README for setup.
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+shap==0.54.1
+streamlit==1.66.0
+pytest==9.1.1
+# Notebook execution / editing
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
