@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# Note: data/synthetic/*.csv is committed on purpose — the data is fully
+# synthetic, and the app/notebooks work out of the box with it.
